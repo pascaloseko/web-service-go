@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"go-cloud/lib/msgqueue"
-	"go-cloud/lib/persistence"
+	"web-service-go/lib/msgqueue"
+	"web-service-go/lib/persistence"
 )
 
 func ServeAPI(listenAddr string, database persistence.DatabaseHandler, eventEmitter msgqueue.EventEmitter) {

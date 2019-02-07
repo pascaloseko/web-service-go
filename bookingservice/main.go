@@ -3,14 +3,15 @@ package main
 import (
 	"flag"
 
+	"web-service-go/bookingservice/listener"
+	"web-service-go/bookingservice/rest"
+	"web-service-go/lib/configuration"
+	"web-service-go/lib/msgqueue"
+	msgqueue_amqp "web-service-go/lib/msgqueue/amqp"
+	"web-service-go/lib/msgqueue/kafka"
+	"web-service-go/lib/persistence/dblayer"
+
 	"github.com/Shopify/sarama"
-	"go-cloud/bookingservice/listener"
-	"go-cloud/bookingservice/rest"
-	"go-cloud/lib/configuration"
-	"go-cloud/lib/msgqueue"
-	msgqueue_amqp "go-cloud/lib/msgqueue/amqp"
-	"go-cloud/lib/msgqueue/kafka"
-	"go-cloud/lib/persistence/dblayer"
 	"github.com/streadway/amqp"
 )
 
@@ -60,5 +61,5 @@ func main() {
 	processor := listener.EventProcessor{eventListener, dbhandler}
 	go processor.ProcessEvents()
 
-	rest.ServeAPI(config.RestfulEndpoint, dbhandler, eventEmitter)
+	rest.ServeAPI(config.RestfulBookEndpoint, dbhandler, eventEmitter)
 }

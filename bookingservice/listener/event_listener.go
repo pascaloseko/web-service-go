@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"go-cloud/contracts"
-	"go-cloud/lib/msgqueue"
-	"go-cloud/lib/persistence"
+	"web-service-go/contracts"
+	"web-service-go/lib/msgqueue"
+	"web-service-go/lib/persistence"
 	"gopkg.in/mgo.v2/bson"
 )
 

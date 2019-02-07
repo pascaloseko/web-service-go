@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"go-cloud/lib/msgqueue"
-	"go-cloud/lib/msgqueue/amqp"
-	"go-cloud/lib/msgqueue/kafka"
+	"web-service-go/lib/msgqueue"
+	"web-service-go/lib/msgqueue/amqp"
+	"web-service-go/lib/msgqueue/kafka"
 )
 
 func NewEventListenerFromEnvironment() (msgqueue.EventListener, error) {

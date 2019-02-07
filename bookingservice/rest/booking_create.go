@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"go-cloud/contracts"
-	"go-cloud/lib/msgqueue"
-	"go-cloud/lib/persistence"
+	"web-service-go/contracts"
+	"web-service-go/lib/msgqueue"
+	"web-service-go/lib/persistence"
 )
 
 type eventRef struct {
