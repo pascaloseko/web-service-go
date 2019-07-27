@@ -1,8 +1,8 @@
 package dblayer
 
 import (
-	"web-service-go/lib/persistence"
-	"web-service-go/lib/persistence/mongolayer"
+	"github.com/pascaloseko/web-service-go/lib/persistence"
+	"github.com/pascaloseko/web-service-go/lib/persistence/mongolayer"
 )
 
 type DBTYPE string

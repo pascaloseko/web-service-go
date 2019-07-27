@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"web-service-go/lib/persistence"
-	"web-service-go/contracts"
-	"web-service-go/lib/msgqueue"
+	"github.com/pascaloseko/web-service-go/lib/persistence"
+	"github.com/pascaloseko/web-service-go/contracts"
+	"github.com/pascaloseko/web-service-go/lib/msgqueue"
 	"net/http"
 	"strings"
 

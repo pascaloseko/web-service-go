@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	amqphelper "web-service-go/lib/helper/amqp"
-	"web-service-go/lib/msgqueue"
+	amqphelper "github.com/pascaloseko/web-service-go/lib/helper/amqp"
+	"github.com/pascaloseko/web-service-go/lib/msgqueue"
 	"github.com/streadway/amqp"
 )
 

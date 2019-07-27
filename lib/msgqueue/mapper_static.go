@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"web-service-go/contracts"
+	"github.com/pascaloseko/web-service-go/contracts"
 	"github.com/mitchellh/mapstructure"
 )
 

@@ -1,7 +1,7 @@
 package mongolayer
 
 import (
-	"web-service-go/lib/persistence"
+	"github.com/pascaloseko/web-service-go/lib/persistence"
 
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

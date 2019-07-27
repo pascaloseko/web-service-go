@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"web-service-go/lib/persistence"
-	"web-service-go/lib/msgqueue"
+	"github.com/pascaloseko/web-service-go/lib/persistence"
+	"github.com/pascaloseko/web-service-go/lib/msgqueue"
 	"net/http"
 
 	"github.com/gorilla/mux"

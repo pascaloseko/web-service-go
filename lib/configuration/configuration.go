@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"web-service-go/lib/persistence/dblayer"
+	"github.com/pascaloseko/web-service-go/lib/persistence/dblayer"
 )
 
 var (

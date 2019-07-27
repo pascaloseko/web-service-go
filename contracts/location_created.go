@@ -1,6 +1,6 @@
 package contracts
 
-import "web-service-go/lib/persistence"
+import "github.com/pascaloseko/web-service-go/lib/persistence"
 
 // LocationCreatedEvent is emitted whenever a location is created
 type LocationCreatedEvent struct {

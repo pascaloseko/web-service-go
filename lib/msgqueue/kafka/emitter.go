@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"web-service-go/lib/helper/kafka"
-	"web-service-go/lib/msgqueue"
+	"github.com/pascaloseko/web-service-go/lib/helper/kafka"
+	"github.com/pascaloseko/web-service-go/lib/msgqueue"
 )
 
 type kafkaEventEmitter struct {

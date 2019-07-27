@@ -3,13 +3,13 @@ package main
 import (
 	"flag"
 
-	"web-service-go/bookingservice/listener"
-	"web-service-go/bookingservice/rest"
-	"web-service-go/lib/configuration"
-	"web-service-go/lib/msgqueue"
-	msgqueue_amqp "web-service-go/lib/msgqueue/amqp"
-	"web-service-go/lib/msgqueue/kafka"
-	"web-service-go/lib/persistence/dblayer"
+	"github.com/pascaloseko/web-service-go/bookingservice/listener"
+	"github.com/pascaloseko/web-service-go/bookingservice/rest"
+	"github.com/pascaloseko/web-service-go/lib/configuration"
+	"github.com/pascaloseko/web-service-go/lib/msgqueue"
+	msgqueue_amqp "github.com/pascaloseko/web-service-go/lib/msgqueue/amqp"
+	"github.com/pascaloseko/web-service-go/lib/msgqueue/kafka"
+	"github.com/pascaloseko/web-service-go/lib/persistence/dblayer"
 
 	"github.com/Shopify/sarama"
 	"github.com/streadway/amqp"
